@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{asset("assets-front")}}/img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,14 +21,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="{{asset("assets-front")}}/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="{{asset("assets-front")}}/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{asset("assets-front")}}/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{asset("assets-front")}}/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand p-0">
                     <h1 class="m-0">BizConsult</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    <!-- <img src="{{asset("assets-front")}}/img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -71,7 +71,7 @@
                             <a href="" class="btn btn-outline-light rounded-pill border-2 py-3 px-5 animated slideInRight">Learn More</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid animated zoomIn" src="img/hero.png" alt="">
+                            <img class="img-fluid animated zoomIn" src="{{asset("assets-front")}}/img/hero.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
-                        <img class="img-fluid" src="img/about.png">
+                        <img class="img-fluid" src="{{asset("assets-front")}}/img/about.png">
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">About Us</div>
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 text-center mb-n5 d-none d-md-block">
-                        <img class="img-fluid mt-5" style="max-height: 250px;" src="img/newsletter.png">
+                        <img class="img-fluid mt-5" style="max-height: 250px;" src="{{asset("assets-front")}}/img/newsletter.png">
                     </div>
                 </div>
             </div>
@@ -329,14 +329,14 @@
         <div class="container-xxl bg-primary my-6 py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="owl-carousel client-carousel">
-                    <a href="#"><img class="img-fluid" src="img/logo-1.png" alt=""></a>
-                    <a href="#"><img class="img-fluid" src="img/logo-2.png" alt=""></a>
-                    <a href="#"><img class="img-fluid" src="img/logo-3.png" alt=""></a>
-                    <a href="#"><img class="img-fluid" src="img/logo-4.png" alt=""></a>
-                    <a href="#"><img class="img-fluid" src="img/logo-5.png" alt=""></a>
-                    <a href="#"><img class="img-fluid" src="img/logo-6.png" alt=""></a>
-                    <a href="#"><img class="img-fluid" src="img/logo-7.png" alt=""></a>
-                    <a href="#"><img class="img-fluid" src="img/logo-8.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{asset("assets-front")}}/img/logo-1.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{asset("assets-front")}}/img/logo-2.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{asset("assets-front")}}/img/logo-3.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{asset("assets-front")}}/img/logo-4.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{asset("assets-front")}}/img/logo-5.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{asset("assets-front")}}/img/logo-6.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{asset("assets-front")}}/img/logo-7.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{asset("assets-front")}}/img/logo-8.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -355,7 +355,7 @@
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
                         <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="{{asset("assets-front")}}/img/testimonial-1.jpg">
                             <div class="ps-3">
                                 <h6 class="mb-1">Client Name</h6>
                                 <small>Profession</small>
@@ -366,7 +366,7 @@
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
                         <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="{{asset("assets-front")}}/img/testimonial-2.jpg">
                             <div class="ps-3">
                                 <h6 class="mb-1">Client Name</h6>
                                 <small>Profession</small>
@@ -377,7 +377,7 @@
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
                         <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="{{asset("assets-front")}}/img/testimonial-3.jpg">
                             <div class="ps-3">
                                 <h6 class="mb-1">Client Name</h6>
                                 <small>Profession</small>
@@ -388,7 +388,7 @@
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
                         <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="{{asset("assets-front")}}/img/testimonial-4.jpg">
                             <div class="ps-3">
                                 <h6 class="mb-1">Client Name</h6>
                                 <small>Profession</small>
@@ -413,7 +413,7 @@
                         <div class="team-item">
                             <h5>Full Name</h5>
                             <p class="mb-4">Designation</p>
-                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="{{asset("assets-front")}}/img/team-1.jpg" alt="">
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
@@ -425,7 +425,7 @@
                         <div class="team-item">
                             <h5>Full Name</h5>
                             <p class="mb-4">Designation</p>
-                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="{{asset("assets-front")}}/img/team-2.jpg" alt="">
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
@@ -437,7 +437,7 @@
                         <div class="team-item">
                             <h5>Full Name</h5>
                             <p class="mb-4">Designation</p>
-                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/team-3.jpg" alt="">
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="{{asset("assets-front")}}/img/team-3.jpg" alt="">
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
@@ -449,7 +449,7 @@
                         <div class="team-item">
                             <h5>Full Name</h5>
                             <p class="mb-4">Designation</p>
-                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/team-4.jpg" alt="">
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="{{asset("assets-front")}}/img/team-4.jpg" alt="">
                             <div class="d-flex justify-content-center">
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
@@ -530,13 +530,13 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="{{asset("assets-front")}}/lib/wow/wow.min.js"></script>
+    <script src="{{asset("assets-front")}}/lib/easing/easing.min.js"></script>
+    <script src="{{asset("assets-front")}}/lib/waypoints/waypoints.min.js"></script>
+    <script src="{{asset("assets-front")}}/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="{{asset("assets-front")}}/js/main.js"></script>
 </body>
 
 </html>
